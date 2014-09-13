@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dip"
+    android:paddingTop="18dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="3dip"
+    android:orientation="vertical"
+    >
+
+    <GridView android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/grid_selector"
+        android:horizontalSpacing="8dip"
+        android:verticalSpacing="8dip"
+        android:numColumns="2"
+        />
+
+</LinearLayout>
